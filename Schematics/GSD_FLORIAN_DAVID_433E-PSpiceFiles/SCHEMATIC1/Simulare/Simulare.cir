@@ -1,0 +1,28 @@
+** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_david_433e-pspicefiles\schematic1\simulare.sim ] 
+
+** Creating circuit file "Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\david\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC856B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC817-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC846B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C10.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C2V7.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\LED.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1ms 0 
+.TEMP 10 20 30 40 50 60 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,1026 @@
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\david\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC856B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC817-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC846B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C10.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C2V7.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\LED.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1ms 0 
+.TEMP 10 20 30 40 50 60 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source GSD_FLORIAN_DAVID_433E
+V_VDD         N253698 0 5
+R_R6         N254670 0  2.2k TC=0,0 
+D_D3         N253698 N253914 BZX84-C2V7 
+X_P2         N254432 N254598 0 POT PARAMS: SET=1 VALUE=100
+D_D1         N253856 0 MLED81
+R_R8         N254616 N254726  330 TC=0,0 
+Q_Q2         N253974 N253926 N253850 BC856B 
+R_R7         N254230 N254246  2.7k TC=0,0 
+R_RL1         N254732 N254598  6.8k TC=0,0 
+R_R3         0 N254406  10k TC=0,0 
+R_R9         N254218 N254432  330 TC=0,0 
+R_R1         N253844 N253698  100 TC=0,0 
+D_D4         N254016 N254322 BZX84-C2V7 
+Q_Q1         N253926 N253926 N253844 BC856B 
+Q_Q5         N254442 N254670 N254780 BC846B 
+Q_Q3         N253974 N254406 N254442 BC846B 
+Q_Q9         N254616 N254322 N254218 QBC807-25 
+R_R5         N254616 N254780  680 TC=0,0 
+R_R2         N253850 N253698  100 TC=0,0 
+R_RL2         0 N254732  2.2k TC=0,0 
+D_D2         N254616 N254670 BZX84-C2V7 
+Q_Q4         N253926 N254230 N254442 BC846B 
+X_P1         N254246 N254218 N254218 POT PARAMS: SET=0 VALUE=10k
+Q_Q7         N254322 N254670 N254726 BC846B 
+V_VSS         N254616 0 -5
+Q_Q6         N254016 N253974 N253914 BC856B 
+Q_Q8         N253698 N254016 N254218 QBC817-25 
+R_R10         N253856 N253698  33 TC=0,0 
+R_R4         N254406 N254218  10k TC=0,0 
+C_C1         0 N254230  5.6n IC=0 TC=0,0 
+
+**** RESUMING Simulare.cir ****
+.END
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C2V7      MLED81          
+          IS  110.880000E-18   10.000000E-09 
+           N     .92657         1.1248       
+         ISR    1.515900E-06   10.010000E-21 
+         IKF  147.68           45.752000E-15 
+          BV    2.7639          5.4169       
+         IBV     .06977        10            
+          RS     .85899         1.2366       
+          TT   17.889000E-09    5.000000E-09 
+         CJO  344.690000E-12   25.000000E-12 
+          VJ     .72935          .75         
+           M     .31964          .3333       
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC807-25       QBC817-25       BC856B          BC846B          
+               PNP             NPN             PNP             NPN             
+       LEVEL    1               1               1               1            
+          IS  108.000000E-15   91.980000E-15  336.700000E-15    7.049000E-15 
+          BF  385.7           338.8           277.7           279.1          
+          NF     .99            1.003           1               1            
+         VAF   31.29          107.9            62.37           62.37         
+         IKF     .3603           .4913           .1686           .2201       
+         ISE   27.130000E-15  446.800000E-18    1.966000E-12   59.160000E-15 
+          NE    1.4             1.65            2.123           1.81         
+          BR   20.57           29.48            7.16            3.816        
+          NR     .9849          1.002           1               1            
+         VAR   11.62           25                                            
+         IKR     .054            .193           9.677           1.859        
+         ISC  506.200000E-15    5.109000E-15  196.000000E-12   16.170000E-15 
+          NC    1.295           1.071           1.815           2.394        
+          NK                                     .545            .6305       
+         ISS    0               0               0               0            
+          RB    1               1                                            
+         RBM     .5             1                                            
+         IRB    1.000000E-06    1.000000E+03                                 
+          RE     .1415           .2126          0               0            
+          RC     .2623           .143           2.891           1.508        
+         CJE   51.140000E-12   38.250000E-12    8.397000E-12    9.485000E-12 
+         VJE     .8911           .7004           .5              .5          
+         MJE     .4417           .364            .3865           .3333       
+         CJC   26.560000E-12   12.700000E-12   11.510000E-12    7.287000E-12 
+         VJC     .62             .4431           .5              .5          
+         MJC     .4836           .3983           .3626           .3333       
+        XCJC     .459            .4555          1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333                                        
+          FC     .99             .905                                        
+          TF  735.900000E-12  522.900000E-12  605.900000E-12  664.000000E-12 
+         XTF    1.859         219.7            23.02          147            
+         VTF    3.813           3.502          10              10            
+         ITF     .4393          7.257           2.133           4.664        
+          TR   50.000000E-09   70.000000E-12   10.000000E-09   10.000000E-09 
+         XTB                                    1.5             1.5          
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.2             2.42         
+           D     .52             .87             .52             .87         
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   10.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81     
+
+         IS        5.691E-18      8.662E-10  
+         VJ        7.599E-01      7.794E-01  
+        CJO        3.393E-10      2.462E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        2.544E+02      2.557E+02      3.857E+02  
+        ISE        5.871E-13      1.412E-14      3.801E-15  
+        VJE        5.436E-01      5.436E-01      9.125E-01  
+        CJE        8.092E-12      9.188E-12      5.044E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        6.560E+00      3.496E+00      2.057E+01  
+        ISC        4.697E-11      5.592E-15      6.047E-14  
+        VJC        5.436E-01      5.436E-01      6.568E-01  
+        CJC        1.112E-11      7.059E-12      2.571E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        2.149E-14      4.499E-16      6.893E-15  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.794E-01      7.794E-01      7.794E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        8.431E-17  
+        VJE        7.326E-01  
+        CJE        3.752E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        3.913E-16  
+        VJC        4.899E-01  
+        CJC        1.213E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        5.871E-15  
+        ISS        0.000E+00  
+        VJS        7.794E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   10.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9407                       
+
+(N253850)    4.9696                   (N253856)    1.4275                       
+
+(N253914)    5.0000                   (N253926)    4.3541                       
+
+(N253974)    4.9655                   (N254016)   -4.4315                       
+
+(N254218)   -3.7542                   (N254230)-598.0E-09                       
+
+(N254246)    -.7981                   (N254322)   -4.4315                       
+
+(N254406)   -1.8771                   (N254432)    -.8657                       
+
+(N254442)    -.6895                   (N254598)    -.8657                       
+
+(N254616)   -5.0000                   (N254670)   -3.6952                       
+
+(N254726)   -4.4381                   (N254732)    -.2116                       
+
+(N254780)   -4.3853                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.092E-01
+    V_VSS        1.182E-02
+
+    TOTAL POWER DISSIPATION   6.05E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   20.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        3.399E-17      3.776E-09  
+         VJ        7.420E-01      7.622E-01  
+        CJO        3.425E-10      2.484E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        2.680E+02      2.694E+02      3.857E+02  
+        ISE        1.216E-12      3.346E-14      1.240E-14  
+        VJE        5.180E-01      5.180E-01      9.000E-01  
+        CJE        8.271E-12      9.362E-12      5.085E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        6.911E+00      3.683E+00      2.057E+01  
+        ISC        1.110E-10      1.060E-14      2.172E-13  
+        VJC        5.180E-01      5.180E-01      6.352E-01  
+        CJC        1.135E-11      7.193E-12      2.621E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        1.126E-13      2.357E-15      3.611E-14  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.622E-01      7.622E-01      7.622E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        2.300E-16  
+        VJE        7.137E-01  
+        CJE        3.795E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        1.837E-15  
+        VJC        4.624E-01  
+        CJC        1.247E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        3.075E-14  
+        ISS        0.000E+00  
+        VJS        7.622E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   20.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9396                       
+
+(N253850)    4.9700                   (N253856)    1.4311                       
+
+(N253914)    5.0000                   (N253926)    4.3737                       
+
+(N253974)    4.9659                   (N254016)   -4.4298                       
+
+(N254218)   -3.7699                   (N254230)-600.2E-09                       
+
+(N254246)    -.8015                   (N254322)   -4.4298                       
+
+(N254406)   -1.8850                   (N254432)    -.8693                       
+
+(N254442)    -.6722                   (N254598)    -.8693                       
+
+(N254616)   -5.0000                   (N254670)   -3.7079                       
+
+(N254726)   -4.4364                   (N254732)    -.2125                       
+
+(N254780)   -4.3807                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.091E-01
+    V_VSS        1.187E-02
+
+    TOTAL POWER DISSIPATION   6.05E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   30.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        1.811E-16      1.498E-08  
+         VJ        7.239E-01      7.448E-01  
+        CJO        3.456E-10      2.507E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        2.819E+02      2.833E+02      3.857E+02  
+        ISE        2.399E-12      7.492E-14      3.754E-14  
+        VJE        4.923E-01      4.923E-01      8.873E-01  
+        CJE        8.451E-12      9.538E-12      5.126E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        7.268E+00      3.873E+00      2.057E+01  
+        ISC        2.481E-10      1.926E-14      7.190E-13  
+        VJC        4.923E-01      4.923E-01      6.135E-01  
+        CJC        1.158E-11      7.327E-12      2.671E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        5.305E-13      1.111E-14      1.701E-13  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.448E-01      7.448E-01      7.448E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        5.885E-16  
+        VJE        6.947E-01  
+        CJE        3.838E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        7.810E-15  
+        VJC        4.348E-01  
+        CJC        1.280E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        1.449E-13  
+        ISS        0.000E+00  
+        VJS        7.448E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   30.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9386                       
+
+(N253850)    4.9704                   (N253856)    1.4347                       
+
+(N253914)    5.0000                   (N253926)    4.3934                       
+
+(N253974)    4.9663                   (N254016)   -4.4283                       
+
+(N254218)   -3.7860                   (N254230)-602.4E-09                       
+
+(N254246)    -.8049                   (N254322)   -4.4283                       
+
+(N254406)   -1.8930                   (N254432)    -.8730                       
+
+(N254442)    -.6548                   (N254598)    -.8730                       
+
+(N254616)   -5.0000                   (N254670)   -3.7209                       
+
+(N254726)   -4.4348                   (N254732)    -.2134                       
+
+(N254780)   -4.3764                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.090E-01
+    V_VSS        1.192E-02
+
+    TOTAL POWER DISSIPATION   6.04E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   40.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        8.700E-16      5.458E-08  
+         VJ        7.057E-01      7.272E-01  
+        CJO        3.488E-10      2.530E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        2.959E+02      2.974E+02      3.857E+02  
+        ISE        4.534E-12      1.594E-13      1.061E-13  
+        VJE        4.664E-01      4.664E-01      8.744E-01  
+        CJE        8.632E-12      9.714E-12      5.168E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        7.630E+00      4.067E+00      2.057E+01  
+        ISC        5.265E-10      3.368E-14      2.210E-12  
+        VJC        4.664E-01      4.664E-01      5.916E-01  
+        CJC        1.181E-11      7.463E-12      2.722E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        2.271E-12      4.755E-14      7.285E-13  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.272E-01      7.272E-01      7.272E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        1.421E-15  
+        VJE        6.755E-01  
+        CJE        3.882E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        3.036E-14  
+        VJC        4.070E-01  
+        CJC        1.314E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        6.204E-13  
+        ISS        0.000E+00  
+        VJS        7.272E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   40.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9375                       
+
+(N253850)    4.9708                   (N253856)    1.4382                       
+
+(N253914)    5.0000                   (N253926)    4.4131                       
+
+(N253974)    4.9668                   (N254016)   -4.4272                       
+
+(N254218)   -3.8025                   (N254230)-604.8E-09                       
+
+(N254246)    -.8084                   (N254322)   -4.4272                       
+
+(N254406)   -1.9013                   (N254432)    -.8768                       
+
+(N254442)    -.6374                   (N254598)    -.8768                       
+
+(N254616)   -5.0000                   (N254670)   -3.7344                       
+
+(N254726)   -4.4336                   (N254732)    -.2143                       
+
+(N254780)   -4.3723                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.089E-01
+    V_VSS        1.197E-02
+
+    TOTAL POWER DISSIPATION   6.04E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   50.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        3.805E-15      1.840E-07  
+         VJ        6.873E-01      7.095E-01  
+        CJO        3.521E-10      2.553E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        3.102E+02      3.118E+02      3.857E+02  
+        ISE        8.235E-12      3.236E-13      2.817E-13  
+        VJE        4.404E-01      4.404E-01      8.615E-01  
+        CJE        8.814E-12      9.891E-12      5.210E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        7.999E+00      4.263E+00      2.057E+01  
+        ISC        1.067E-09      5.687E-14      6.353E-12  
+        VJC        4.404E-01      4.404E-01      5.696E-01  
+        CJC        1.205E-11      7.599E-12      2.772E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        8.913E-12      1.866E-13      2.859E-12  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        7.095E-01      7.095E-01      7.095E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        3.254E-15  
+        VJE        6.561E-01  
+        CJE        3.926E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        1.088E-13  
+        VJC        3.791E-01  
+        CJC        1.348E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        2.435E-12  
+        ISS        0.000E+00  
+        VJS        7.095E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   50.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9366                       
+
+(N253850)    4.9712                   (N253856)    1.4416                       
+
+(N253914)    5.0000                   (N253926)    4.4331                       
+
+(N253974)    4.9673                   (N254016)   -4.4269                       
+
+(N254218)   -3.8198                   (N254230)-607.2E-09                       
+
+(N254246)    -.8121                   (N254322)   -4.4269                       
+
+(N254406)   -1.9099                   (N254432)    -.8808                       
+
+(N254442)    -.6198                   (N254598)    -.8808                       
+
+(N254616)   -5.0000                   (N254670)   -3.7486                       
+
+(N254726)   -4.4332                   (N254732)    -.2153                       
+
+(N254780)   -4.3690                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.088E-01
+    V_VSS        1.203E-02
+
+    TOTAL POWER DISSIPATION   6.04E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   60.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        1.528E-14      5.784E-07  
+         VJ        6.688E-01      6.917E-01  
+        CJO        3.553E-10      2.576E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        3.247E+02      3.264E+02      3.857E+02  
+        ISE        1.443E-11      6.298E-13      7.067E-13  
+        VJE        4.142E-01      4.142E-01      8.483E-01  
+        CJE        8.997E-12      1.007E-11      5.252E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        8.373E+00      4.462E+00      2.057E+01  
+        ISC        2.072E-09      9.305E-14      1.718E-11  
+        VJC        4.142E-01      4.142E-01      5.474E-01  
+        CJC        1.228E-11      7.736E-12      2.823E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        3.231E-11      6.765E-13      1.036E-11  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        6.917E-01      6.917E-01      6.917E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        7.102E-15  
+        VJE        6.367E-01  
+        CJE        3.970E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        3.623E-13  
+        VJC        3.511E-01  
+        CJC        1.382E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        8.827E-12  
+        ISS        0.000E+00  
+        VJS        6.917E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   60.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9357                       
+
+(N253850)    4.9717                   (N253856)    1.4449                       
+
+(N253914)    5.0000                   (N253926)    4.4532                       
+
+(N253974)    4.9679                   (N254016)   -4.4278                       
+
+(N254218)   -3.8385                   (N254230)-609.9E-09                       
+
+(N254246)    -.8161                   (N254322)   -4.4278                       
+
+(N254406)   -1.9192                   (N254432)    -.8851                       
+
+(N254442)    -.6021                   (N254598)    -.8851                       
+
+(N254616)   -5.0000                   (N254670)   -3.7642                       
+
+(N254726)   -4.4341                   (N254732)    -.2164                       
+
+(N254780)   -4.3669                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.087E-01
+    V_VSS        1.208E-02
+
+    TOTAL POWER DISSIPATION   6.04E-01  WATTS
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C2V7       MLED81                    
+
+         IS        5.673E-14      1.704E-06  
+         VJ        6.502E-01      6.738E-01  
+        CJO        3.585E-10      2.599E-11  
+         RS        8.590E-01      1.237E+00  
+        IKF        1.477E+02      4.575E-14  
+         BV        2.764E+00      5.417E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856B         BC846B        QBC807-25   
+
+         BF        3.395E+02      3.412E+02      3.857E+02  
+        ISE        2.447E-11      1.179E-12      1.684E-12  
+        VJE        3.880E-01      3.880E-01      8.351E-01  
+        CJE        9.180E-12      1.025E-11      5.295E-11  
+         RE        0.000E+00      0.000E+00      1.415E-01  
+         RB        0.000E+00      0.000E+00      1.000E+00  
+         BR        8.752E+00      4.665E+00      2.057E+01  
+        ISC        3.872E-09      1.479E-13      4.391E-11  
+        VJC        3.880E-01      3.880E-01      5.251E-01  
+        CJC        1.252E-11      7.873E-12      2.875E-11  
+         RC        2.891E+00      1.508E+00      2.623E-01  
+        RBM        0.000E+00      0.000E+00      5.000E-01  
+         IS        1.090E-10      2.281E-12      3.495E-11  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+                  QBC817-25                                 
+
+         BF        3.388E+02  
+        ISE        1.484E-14  
+        VJE        6.171E-01  
+        CJE        4.015E-11  
+         RE        2.126E-01  
+         RB        1.000E+00  
+         BR        2.948E+01  
+        ISC        1.127E-12  
+        VJC        3.229E-01  
+        CJC        1.416E-11  
+         RC        1.430E-01  
+        RBM        1.000E+00  
+         IS        2.976E-11  
+        ISS        0.000E+00  
+        VJS        6.738E-01  
+        CJS        0.000E+00  
+      GAMMA        1.000E-11  
+        RCO        0.000E+00  
+         VO        1.000E+01  
+
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N253698)    5.0000                   (N253844)    4.9351                       
+
+(N253850)    4.9724                   (N253856)    1.4482                       
+
+(N253914)    5.0000                   (N253926)    4.4737                       
+
+(N253974)    4.9686                   (N254016)   -4.4308                       
+
+(N254218)   -3.8593                   (N254230)-613.0E-09                       
+
+(N254246)    -.8205                   (N254322)   -4.4308                       
+
+(N254406)   -1.9297                   (N254432)    -.8899                       
+
+(N254442)    -.5842                   (N254598)    -.8899                       
+
+(N254616)   -5.0000                   (N254670)   -3.7821                       
+
+(N254726)   -4.4371                   (N254732)    -.2175                       
+
+(N254780)   -4.3670                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -1.086E-01
+    V_VSS        1.214E-02
+
+    TOTAL POWER DISSIPATION   6.04E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/19/25 13:45:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .64
+

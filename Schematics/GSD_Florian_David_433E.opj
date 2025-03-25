@@ -1,0 +1,160 @@
+(ExpressProject "GSD_Florian_David_433E"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\biblioteci componente\bc856b.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\led.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\bc817-25.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\bc807-25.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\bc846b.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\bzx84c10.olb"
+        (Type "Schematic Library"))
+      (File ".\biblioteci componente\bzx84c2v7.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\gsd_florian_david_433e.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\GSD_FLORIAN_DAVID_433E.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}/t{Vendor}/t{Part Number}/t{Manufacterer Name}/t{Manufacterer Part Number}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart/tVendor/tPart Number/tManufacter Part Number")
+    (BOM_Include_File
+       "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\GSD_FLORIAN_DAVID_433E.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\gsd_florian_david_433e-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\gsd_florian_david_433e.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C_t
+      (FullPartName "C_t.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C10
+      (FullPartName "BZX84-C10.Normal")
+      (LibraryName
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\BIBLIOTECI COMPONENTE\BZX84C10.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\BIBLIOTECI COMPONENTE\BZX84C2V7.OLB")
+      (DeviceIndex "0"))
+    (BZX84C10
+      (FullPartName "BZX84C10.Normal")
+      (LibraryName
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\BIBLIOTECI COMPONENTE\BZX84C10.OLB")
+      (DeviceIndex "0"))
+    (BC846B
+      (FullPartName "BC846B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (MLED81
+      (FullPartName "MLED81.Normal")
+      (LibraryName
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\BIBLIOTECI COMPONENTE\LED.OLB")
+      (DeviceIndex "0"))
+    (BC807-25
+      (FullPartName "BC807-25.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (BC817-25
+      (FullPartName "BC817-25.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (BC856B
+      (FullPartName "BC856B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\LIBRARII\BC846B.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 -18 1585 -10 663")
+        (Scroll "-422 -11")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\DAVID\ONEDRIVE\DESKTOP\P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD\SCHEMATICS\GSD_FLORIAN_DAVID_433E.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "david")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\gsd_florian_david_433e-pspicefiles\schematic1\simulare.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\gsd_florian_david_433e-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-Simulare")
+        (Type "PSpice Profile"))))
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,74 @@
+
+**** 11/08/24 21:02:58 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\gsd_florian_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\david\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 1n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source GSD_FLORIAN_DAVID_433E
+R_R3         0 N00169  10k TC=0,0 
+R_R4         N00169 N00815  10k TC=0,0 
+Q_Q1         N00283 N00287 N00368 BC856B 
+Q_Q2         N00287 N00287 N00364 BC856B 
+R_R2         N00364 N00372  100 TC=0,0 
+R_R1         N00368 N00372  100 TC=0,0 
+Q_Q5         N00083 N00505 N00681 BC846B 
+R_R6         0 N00505  4.7k TC=0,0 
+C_C1         0 N00620  1n  TC=0,0 
+R_R5         N00729 N00681  470 TC=0,0 
+R_R8         N00620 N00899  2.2k TC=0,0 
+R_R9         N00899 N00895  470 TC=0,0 
+X_P1         N00895 N00815 N00815 POT PARAMS: SET=0 VALUE=5K
+Q_Q6         N01438 N00283 N01323 BC856B 
+Q_Q7         N01319 N00505 N01186 BC846B 
+R_R7         N00729 N01186  680 TC=0,0 
+Q_Q9         N00372 N01323 N00815 BC817-25 
+Q_Q8         N00815 N01319 N00729 BC807-25 
+R_R10         N01714 N00372  33 TC=0,0 
+D_D1         N01714 0 MLED81
+R_R11         N00815 N01850  330 TC=0,0 
+X_P2         0 N01916 N01850 POT PARAMS: SET=1 VALUE=100
+R_RL         0 N01916  10k TC=0,0 
+V_V1         N00372 0 5V
+V_V2         N00729 0 -5V
+Q_Q3         N00283 N00169 N00083 BC846B 
+Q_Q4         N00287 N00620 N00083 BC846B 
+D_D4         N01323 N01319 BZX84-C10 
+D_D3         N00372 N01438 BZX84-C2V7 
+D_D5         N00729 N00505 BZX84-C10 
+
+**** RESUMING Simulare.cir ****
+.END
+
+
+ERROR(ORPSIM-15113): Model BZX84-C10 used by D_D4 is undefined
+
+ERROR(ORPSIM-15113): Model BZX84-C2V7 used by D_D3 is undefined
+
+ERROR(ORPSIM-15113): Model BZX84-C10 used by D_D5 is undefined
+

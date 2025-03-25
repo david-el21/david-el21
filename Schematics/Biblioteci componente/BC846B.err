@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Tuesday, November 16, 2021 03:53:18
+STATUS: D:\Cadence\SPB_17.2\tools\bin\sch2cap -f "D:\Materiale pentru facultate\Anul 3\Semestrul 1\P1\P1_2021_434E_Manu_Florin_GSD_N10_TINA\Schematics\biblioteci spice\BC846B.lib" -o "D:\Materiale pentru facultate\Anul 3\Semestrul 1\P1\P1_2021_434E_Manu_Florin_GSD_N10_TINA\Schematics\biblioteci spice\BC846B.olb" -i C:\SPB_Data\cdssetup\OrCAD_PSpice/17.2.0/PSpice.ini
+INFO(ORSCH-1029): Using existing library 'D:\Cadence\SPB_17.2\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'D:\Materiale pentru facultate\Anul 3\Semestrul 1\P1\P1_2021_434E_Manu_Florin_GSD_N10_TINA\Schematics\biblioteci spice\BC846B.olb'.
+STATUS: Translator stopped at Tuesday, November 16, 2021 03:53:19
+STATUS: 0 Error messages, 0 Warning messages
