@@ -1,0 +1,228 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.1           D1.3           J1.1           
+                                 J2.1           J3.2           P2.1           
+                                 R3.1           R6.2           RL2.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258420      pins ADDED TO this new net
+                                 Q1.2           R1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258426      pins ADDED TO this new net
+                                 Q2.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258432      pins ADDED TO this new net
+                                 D1.1           R10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258490      pins ADDED TO this new net
+                                 D3.3           Q6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258502      pins ADDED TO this new net
+                                 Q1.1           Q1.3           Q2.1           
+                                 Q4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258550      pins ADDED TO this new net
+                                 Q2.3           Q3.3           Q6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258592      pins ADDED TO this new net
+                                 D4.1           Q6.3           Q8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258690      pins ADDED TO this new net
+                                 P1.2           P1.3           Q8.2           
+                                 Q9.2           R4.2           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258702      pins ADDED TO this new net
+                                 C1.2           Q4.1           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258718      pins ADDED TO this new net
+                                 P1.1           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258796      pins ADDED TO this new net
+                                 D4.3           Q7.3           Q9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258888      pins ADDED TO this new net
+                                 Q3.1           R3.2           R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N258914      pins ADDED TO this new net
+                                 P2.3           R9.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N258924      pins ADDED TO this new net
+                                 Q3.2           Q4.2           Q5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N259152      pins ADDED TO this new net
+                                 D2.3           Q5.1           Q7.1           
+                                 R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N259208      pins ADDED TO this new net
+                                 Q7.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N259214      pins ADDED TO this new net
+                                 RL1.1          RL2.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N259262      pins ADDED TO this new net
+                                 Q5.2           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V+           pins ADDED TO this new net
+                                 D3.1           J1.2           Q8.3           
+                                 R1.2           R2.2           R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V-           pins ADDED TO this new net
+                                 D2.1           J2.2           Q9.3           
+                                 R5.1           R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VO           pins ADDED TO this new net
+                                 J3.1           P2.2           RL1.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BC846B_1_TO236AA_BC846B
+ BC846B_2_TO236AA_BC846B
+ BC856B_2_TO236AA_BC856B
+ BC856B_TO236AA_BC856B
+ BZX84-C2V7_7_TO236AA_BZX84-C2V7
+ BZX84-C2V7_9_TO236AA_BZX84-C2V7
+ CON2_SMR2512_CON2
+ C_CAPC2008X126N_0805_5.6N
+ MLED81_3_TO236AA_MLED81
+ POT_2_TS53YL_10K
+ POT_TS53YL_100
+ QBC807-25_0_TO236AA_QBC807-25
+ QBC817-25_0_TO236AA_QBC817-25
+ R_RES2012X50N_0805_2.2K
+ R_RES2012X50N_0805_2.7K
+ R_RES2012X50N_0805_6.8K
+ R_RES2012X50N_0805_10K
+ R_RES2012X50N_0805_33
+ R_RES2012X50N_0805_100
+ R_RES2012X50N_0805_330
+ R_RES2012X50N_0805_680
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_CAPC2008X126N_0805_5.6N 
+ D1                  MLED81_3_TO236AA_MLED81 
+ D2                  BZX84-C2V7_7_TO236AA_BZX84-C2V7 
+ D3                  BZX84-C2V7_7_TO236AA_BZX84-C2V7 
+ D4                  BZX84-C2V7_9_TO236AA_BZX84-C2V7 
+ J1                  CON2_SMR2512_CON2     
+ J2                  CON2_SMR2512_CON2     
+ J3                  CON2_SMR2512_CON2     
+ P1                  POT_2_TS53YL_10K      
+ P2                  POT_TS53YL_100        
+ Q1                  BC856B_TO236AA_BC856B 
+ Q2                  BC856B_2_TO236AA_BC856B 
+ Q3                  BC846B_2_TO236AA_BC846B 
+ Q4                  BC846B_1_TO236AA_BC846B 
+ Q5                  BC846B_1_TO236AA_BC846B 
+ Q6                  BC856B_TO236AA_BC856B 
+ Q7                  BC846B_1_TO236AA_BC846B 
+ Q8                  QBC817-25_0_TO236AA_QBC817-25 
+ Q9                  QBC807-25_0_TO236AA_QBC807-25 
+ R1                  R_RES2012X50N_0805_100 
+ R2                  R_RES2012X50N_0805_100 
+ R3                  R_RES2012X50N_0805_10K 
+ R4                  R_RES2012X50N_0805_10K 
+ R5                  R_RES2012X50N_0805_680 
+ R6                  R_RES2012X50N_0805_2.2K 
+ R7                  R_RES2012X50N_0805_2.7K 
+ R8                  R_RES2012X50N_0805_330 
+ R9                  R_RES2012X50N_0805_330 
+ R10                 R_RES2012X50N_0805_33 
+ RL1                 R_RES2012X50N_0805_6.8K 
+ RL2                 R_RES2012X50N_0805_2.2K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ D4.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ P1.2                           PRIM_FILE      .\pstchip.dat
+ P2.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q2.2                           PRIM_FILE      .\pstchip.dat
+ Q3.2                           PRIM_FILE      .\pstchip.dat
+ Q4.2                           PRIM_FILE      .\pstchip.dat
+ Q5.2                           PRIM_FILE      .\pstchip.dat
+ Q6.2                           PRIM_FILE      .\pstchip.dat
+ Q7.2                           PRIM_FILE      .\pstchip.dat
+ Q8.2                           PRIM_FILE      .\pstchip.dat
+ Q9.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ RL1.2                          PRIM_FILE      .\pstchip.dat
+ RL2.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd         |
+|                                                    Sat Dec 14 20:12:14 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      73                                        |
+|       Comp definitions added:      21                                        |
+|       Components added      :      31                                        |
+|       Slot property added   :      31                                        |
+|                                                                              |
+|   Total ECO changes reported:     156                                        |
+|------------------------------------------------------------------------------|

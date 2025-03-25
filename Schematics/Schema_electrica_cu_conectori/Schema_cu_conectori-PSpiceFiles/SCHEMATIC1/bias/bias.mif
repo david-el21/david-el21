@@ -1,0 +1,7 @@
+ lib=, offset=480, size=667
+ lib=, offset=481, size=704
+ lib="C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C2V7.lib", offset=471, size=190
+ lib=, offset=33516, size=322
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\ebipolar.lib, offset=25312, size=368
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\ebipolar.lib, offset=20762, size=367
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133

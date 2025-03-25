@@ -1,0 +1,220 @@
+
+**** 12/09/24 22:29:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Schema_electrica
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\david\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC856B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC817-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC846B.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C10.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BZX84C2V7.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\BC807-25.lib" 
+.lib "C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Biblioteci componente\LED.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SCHEMA_CU_CONECTORI
+R_R4         N258888 N258690  10k TC=0,0 
+R_R2         N258426 V+  100 TC=0,0 
+R_RL1         N259214 VO  6.8k TC=0,0 
+R_R7         N258702 N258718  2.7k TC=0,0 
+C_C1         0 N258702  5.6n IC=0 TC=0,0 
+R_R8         V- N259208  330 TC=0,0 
+Q_Q9         V- N258796 N258690 QBC807-25 
+Q_Q1         N258502 N258502 N258420 BC856B 
+R_R6         N259152 0  2.2k TC=0,0 
+R_R9         N258690 N258914  330 TC=0,0 
+R_R5         V- N259262  680 TC=0,0 
+D_D1         N258432 0 MLED81
+R_R3         0 N258888  10k TC=0,0 
+R_RL2         0 N259214  2.2k TC=0,0 
+Q_Q3         N258550 N258888 N258924 BC846B 
+X_P2         N258914 VO 0 POT PARAMS: SET=1 VALUE=100
+D_D4         N258592 N258796 BZX84-C2V7 
+R_R1         N258420 V+  100 TC=0,0 
+X_P1         N258718 N258690 N258690 POT PARAMS: SET=0 VALUE=10k
+D_D3         V+ N258490 BZX84-C2V7 
+Q_Q4         N258502 N258702 N258924 BC846B 
+Q_Q2         N258550 N258502 N258426 BC856B 
+D_D2         V- N259152 BZX84-C2V7 
+R_R10         N258432 V+  33 TC=0,0 
+Q_Q5         N258924 N259152 N259262 BC846B 
+Q_Q6         N258592 N258550 N258490 BC856B 
+Q_Q8         V+ N258592 N258690 QBC817-25 
+Q_Q7         N258796 N259152 N259208 BC846B 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 12/09/24 22:29:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Schema_electrica
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C2V7      MLED81          
+          IS  110.880000E-18   10.000000E-09 
+           N     .92657         1.1248       
+         ISR    1.515900E-06   10.010000E-21 
+         IKF  147.68           45.752000E-15 
+          BV    2.7639          5.4169       
+         IBV     .06977        10            
+          RS     .85899         1.2366       
+          TT   17.889000E-09    5.000000E-09 
+         CJO  344.690000E-12   25.000000E-12 
+          VJ     .72935          .75         
+           M     .31964          .3333       
+
+
+**** 12/09/24 22:29:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Schema_electrica
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC807-25       QBC817-25       BC856B          BC846B          
+               PNP             NPN             PNP             NPN             
+       LEVEL    1               1               1               1            
+          IS  108.000000E-15   91.980000E-15  336.700000E-15    7.049000E-15 
+          BF  385.7           338.8           277.7           279.1          
+          NF     .99            1.003           1               1            
+         VAF   31.29          107.9            62.37           62.37         
+         IKF     .3603           .4913           .1686           .2201       
+         ISE   27.130000E-15  446.800000E-18    1.966000E-12   59.160000E-15 
+          NE    1.4             1.65            2.123           1.81         
+          BR   20.57           29.48            7.16            3.816        
+          NR     .9849          1.002           1               1            
+         VAR   11.62           25                                            
+         IKR     .054            .193           9.677           1.859        
+         ISC  506.200000E-15    5.109000E-15  196.000000E-12   16.170000E-15 
+          NC    1.295           1.071           1.815           2.394        
+          NK                                     .545            .6305       
+         ISS    0               0               0               0            
+          RB    1               1                                            
+         RBM     .5             1                                            
+         IRB    1.000000E-06    1.000000E+03                                 
+          RE     .1415           .2126          0               0            
+          RC     .2623           .143           2.891           1.508        
+         CJE   51.140000E-12   38.250000E-12    8.397000E-12    9.485000E-12 
+         VJE     .8911           .7004           .5              .5          
+         MJE     .4417           .364            .3865           .3333       
+         CJC   26.560000E-12   12.700000E-12   11.510000E-12    7.287000E-12 
+         VJC     .62             .4431           .5              .5          
+         MJC     .4836           .3983           .3626           .3333       
+        XCJC     .459            .4555          1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333                                        
+          FC     .99             .905                                        
+          TF  735.900000E-12  522.900000E-12  605.900000E-12  664.000000E-12 
+         XTF    1.859         219.7            23.02          147            
+         VTF    3.813           3.502          10              10            
+         ITF     .4393          7.257           2.133           4.664        
+          TR   50.000000E-09   70.000000E-12   10.000000E-09   10.000000E-09 
+         XTB                                    1.5             1.5          
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.2             2.42         
+           D     .52             .87             .52             .87         
+
+
+**** 12/09/24 22:29:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Schema_electrica
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+) 55.07E-15  (   V-) 403.5E-18  (   VO)-13.08E-24  (N258420) 55.07E-15    
+
+(N258426) 55.07E-15                   (N258432) 55.07E-15                       
+
+(N258490) 55.00E-15                   (N258502) 38.11E-15                       
+
+(N258550) 37.99E-15                   (N258592) 37.89E-15                       
+
+(N258690)-56.70E-24                   (N258702)-1.692E-27                       
+
+(N258718)-12.06E-24                   (N258796) 37.67E-15                       
+
+(N258888)-4.236E-21                   (N258914)-13.08E-24                       
+
+(N258924)-681.4E-15                   (N259152) 9.242E-21                       
+
+(N259208) 403.5E-18                   (N259214)-3.196E-24                       
+
+(N259262) 403.5E-18                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/09/24 22:29:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\david\OneDrive\Desktop\P1_2024_433E_Florian_David_GSD_N9_OrCAD\Schematics\Schema_electrica
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

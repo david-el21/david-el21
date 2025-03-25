@@ -1,0 +1,8 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 15 01:14:02 2024
+\t (00:00:00)         Host=DESKTOP-7QPH5TO User=david Pid=12536 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession david -file ./#Taaaadl19180.tmp -pname R130_200 -data C:/Users/david/AppData/Local/Temp/#Taaaadn19180.tmp
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:12) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:12)     Journal end - Sun Dec 15 01:14:15 2024
