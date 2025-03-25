@@ -1,0 +1,1292 @@
+\t (00:00:06) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Sun Dec 15 16:47:32 2024
+\t (00:00:06)         Host=DESKTOP-7QPH5TO User=david Pid=17284 CPUs=16
+\t (00:00:06) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: C:/USERS/DAVID/ONEDRIVE/DESKTOP/P1_2024_433E_FLORIAN_DAVID_GSD_N9_ORCAD/SCHEMATICS/SCHEMA_ELECTRICA_CU_CONECTORI/allegro/SCHEMA_CU_CONECTORI.brd
+\t (00:00:07) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:00:07) trapsize 9565
+\i (00:00:07) trapsize 9783
+\t (00:00:07) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:00:07) trapsize 9834
+\i (00:00:07) generaledit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -37.8121 -6.7582
+\t (00:00:08) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:00:08) trapsize 19565
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -91.5665 -2.7348
+\i (00:00:08) trapsize 19565
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -106.8274 36.0044
+\t (00:00:08) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:00:08) trapsize 9783
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -103.8926 38.1566
+\t (00:00:09) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:09) trapsize 4891
+\i (00:00:09) drag_start grid -78.9469 58.7979
+\i (00:00:10) drag_stop -20.5448 -2.6369
+\i (00:00:11) prepopup -56.9361 26.5153
+\i (00:00:12) prepopup -55.5665 30.7218
+\i (00:00:14) pop dyn_option_select @:@Delete 
+\i (00:00:14) delete 
+\i (00:00:14) generaledit 
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -33.9469 17.4174
+\t (00:00:14) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:00:14) trapsize 9783
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 46.5639 9.5914
+\t (00:00:14) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:00:14) trapsize 19565
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 234.3900 -64.1696
+\i (00:00:14) trapsize 19565
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -19.5665 -43.8217
+\t (00:00:15) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:00:15) trapsize 9783
+\i (00:00:16) drag_start grid -8.8056 -2.9304
+\i (00:00:17) drag_stop 137.5422 -39.7130
+\i (00:00:18) prepopup 125.9988 -27.5825
+\i (00:00:19) pop dyn_option_select @:@Delete 
+\i (00:00:19) delete 
+\i (00:00:19) generaledit 
+\i (00:00:19) prepopup 15.0640 -16.0391
+\i (00:00:20) pick grid -7.6317 -5.4738
+\t (00:00:20) last pick:  -7.6300 -5.4700
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 1.5640 20.9392
+\t (00:00:20) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:20) trapsize 4891
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 7.7270 24.2653
+\t (00:00:21) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:21) trapsize 2446
+\i (00:00:22) pick grid 39.7651 13.2110
+\t (00:00:22) last pick:  39.7700 13.2100
+\i (00:00:22) prepopup 39.7651 13.2110
+\i (00:00:26) pick grid 44.6564 18.9338
+\t (00:00:26) last pick:  44.6600 18.9300
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 25.2379 17.6132
+\t (00:00:27) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:27) trapsize 4891
+\i (00:00:30) artwork 
+\i (00:00:33) setwindow form.film_control
+\i (00:00:33) FORM film_control filmtree 'MULTISEL YES' SSTOP 
+\i (00:00:33) FORM film_control filmtree  SSTOP 
+\i (00:00:33) FORM film_control filmtree 'MULTISEL YES' SPTOP 
+\i (00:00:33) FORM film_control filmtree  SPTOP 
+\i (00:00:35) FORM film_control filmtree 'MULTISEL YES' SMTOP 
+\i (00:00:35) FORM film_control filmtree  SMTOP 
+\i (00:00:37) FORM film_control filmtree 'MULTISEL YES' SMBOT 
+\i (00:00:37) FORM film_control filmtree  SMBOT 
+\i (00:00:38) FORM film_control filmtree 'MULTISEL YES' FAB 
+\i (00:00:38) FORM film_control filmtree  FAB 
+\i (00:00:38) FORM film_control filmtree 'MULTISEL YES' BO 
+\i (00:00:38) FORM film_control filmtree  BO 
+\i (00:00:48) FORM film_control filmtree popup Cut BO 
+\i (00:00:51) FORM film_control filmtree popup Cut FAB 
+\i (00:00:52) FORM film_control filmtree popup Cut SMBOT 
+\i (00:00:54) FORM film_control filmtree popup Cut SMTOP 
+\i (00:00:56) FORM film_control filmtree popup Cut SSTOP 
+\i (00:00:57) FORM film_control filmtree  SPTOP 
+\i (00:00:58) FORM film_control filmtree popup Cut SPTOP 
+\i (00:01:01) FORM film_control filmtree  BOTTOM 
+\i (00:01:02) FORM film_control filmtree  TOP 
+\i (00:01:10) FORM film_control ok  
+\i (00:01:10) setwindow pcb
+\i (00:01:10) generaledit 
+\i (00:01:10) prepopup -25.4360 4.5044
+\i (00:01:11) pick grid -26.6099 13.6023
+\t (00:01:11) last pick:  -26.6100 13.6000
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in 27.6836 32.9718
+\t (00:01:12) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:01:12) trapsize 2446
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 27.6836 32.9718
+\t (00:01:12) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:01:12) trapsize 4891
+\i (00:01:18) color192 
+\i (00:01:18) generaledit 
+\i (00:01:20) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:01:23) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:01:23) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:01:26) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:01:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:01:26) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:01:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:01:28) QtSignal CVDLayerTable VertHeader clickedCheckBox 17
+\i (00:01:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (00:01:30) QtSignal CVDLayerTable VertHeader clickedCheckBox 11
+\i (00:01:30) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 0
+\i (00:01:31) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:01:32) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:01:32) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:01:33) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:01:37) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:01:38) zoom in 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom in 27.9772 21.2327
+\t (00:01:38) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:01:38) trapsize 2446
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 25.6783 23.1893
+\t (00:01:38) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:01:38) trapsize 4891
+\i (00:01:39) zoom out 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom out 22.7435 34.6349
+\t (00:01:39) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:01:39) trapsize 9783
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in 21.9609 34.4393
+\t (00:01:40) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:01:40) trapsize 4891
+\i (00:01:45) artwork 
+\i (00:01:46) setwindow form.film_control
+\i (00:01:46) FORM film_control filmtree  TOP 
+\i (00:01:49) FORM film_control filmtree popup Add TOP 
+\i (00:01:51) fillin "BO"
+\i (00:01:55) FORM film_control filmtree  BO 
+\i (00:01:58) FORM film_control undefined_line_width 0.1 
+\i (00:02:00) FORM film_control ok  
+\i (00:02:00) setwindow pcb
+\i (00:02:00) generaledit 
+\i (00:02:33) pick grid -11.3000 -3.9086
+\t (00:02:33) last pick:  -11.3000 -3.9100
+\i (00:02:37) color192 
+\i (00:02:37) generaledit 
+\i (00:02:39) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:02:40) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:02:40) zoom out 1 
+\i (00:02:40) setwindow pcb
+\i (00:02:40) zoom out 12.3739 30.7219
+\t (00:02:40) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:02:40) trapsize 9783
+\i (00:02:41) zoom in 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom in 19.8087 45.9827
+\t (00:02:41) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:02:41) trapsize 4891
+\i (00:03:21) ncdrill legend 
+   (00:03:21) Loading mfg.cxt 
+\i (00:03:27) setwindow form.nc_drilllegend
+\i (00:03:27) FORM nc_drilllegend done  
+\i (00:03:29) setwindow pcb
+\i (00:03:29) pick grid -0.0500 -4.4955
+\t (00:03:29) last pick:  -0.0500 -4.5000
+\t (00:03:29) NC Drill Legend generation successful
+\i (00:03:29) generaledit 
+\i (00:03:29) zoom out 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom out 39.3739 -11.9303
+\t (00:03:29) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:29) trapsize 9783
+\i (00:03:30) zoom out 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom out 47.9335 -20.3434
+\t (00:03:30) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:03:30) trapsize 19565
+\i (00:03:31) zoom in 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom in 61.4335 -36.7783
+\t (00:03:31) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:31) trapsize 9783
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in 58.3031 -12.7130
+\t (00:03:32) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:32) trapsize 4891
+\i (00:03:33) zoom out 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out 62.0205 -19.1695
+\t (00:03:33) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:33) trapsize 9783
+\i (00:03:35) zoom in 1 
+\i (00:03:35) setwindow pcb
+\i (00:03:35) zoom in 11.1510 -29.9303
+\t (00:03:35) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:35) trapsize 4891
+\i (00:03:35) zoom in 1 
+\i (00:03:35) setwindow pcb
+\i (00:03:35) zoom in 11.4445 -23.9629
+\t (00:03:35) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:03:35) trapsize 2446
+\i (00:03:36) zoom out 1 
+\i (00:03:36) setwindow pcb
+\i (00:03:36) zoom out 12.8141 -18.7292
+\t (00:03:36) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:36) trapsize 4891
+\i (00:03:36) zoom out 1 
+\i (00:03:36) setwindow pcb
+\i (00:03:36) zoom out 12.3250 -17.9465
+\t (00:03:36) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:36) trapsize 9783
+\i (00:03:37) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out 9.5859 25.6839
+\t (00:03:37) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:03:37) trapsize 19565
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in -63.3926 39.1348
+\t (00:03:37) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:37) trapsize 9783
+\i (00:03:49) xsection_chart 
+\i (00:03:52) setwindow form.xsectionChart
+\i (00:03:52) FORM xsectionChart xsectionchart_ok  
+\i (00:03:54) setwindow pcb
+\i (00:03:54) pick grid -67.6970 -0.7783
+\t (00:03:54) last pick:  -67.7000 -0.7800
+\i (00:03:54) generaledit 
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in -55.5665 19.9609
+\t (00:03:55) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:55) trapsize 4891
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in -55.8600 20.5479
+\t (00:03:55) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:03:55) trapsize 2446
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out -46.5665 24.4610
+\t (00:03:56) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:56) trapsize 4891
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out -47.9360 31.2110
+\t (00:03:56) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:03:56) trapsize 9783
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in -46.7621 49.4066
+\t (00:03:57) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:03:57) trapsize 4891
+\i (00:03:58) zoom in 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in -52.7294 6.6566
+\t (00:03:58) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:03:58) trapsize 2446
+\i (00:04:02) zoom out 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom out -52.2402 12.0859
+\t (00:04:02) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:04:02) trapsize 4891
+\i (00:04:04) zoom in 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom in -53.7077 26.5643
+\t (00:04:04) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:04:04) trapsize 2446
+\i (00:04:05) zoom in 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom in -57.9631 25.3904
+\t (00:04:05) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:04:05) trapsize 1223
+\i (00:04:06) zoom out 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom out -57.9631 25.3904
+\t (00:04:06) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:04:06) trapsize 2446
+\i (00:04:07) zoom out 1 
+\i (00:04:07) setwindow pcb
+\i (00:04:07) zoom out -48.0337 19.5698
+\t (00:04:07) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:04:07) trapsize 4891
+\i (00:04:07) zoom in 1 
+\i (00:04:07) setwindow pcb
+\i (00:04:07) zoom in -34.5337 2.6459
+\t (00:04:07) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:04:07) trapsize 2446
+\i (00:04:08) zoom out 1 
+\i (00:04:08) setwindow pcb
+\i (00:04:08) zoom out -36.0500 11.1568
+\t (00:04:08) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:04:08) trapsize 4891
+\i (00:04:13) zoom out 1 
+\i (00:04:13) setwindow pcb
+\i (00:04:13) zoom out -18.6369 -1.2670
+\t (00:04:13) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:04:13) trapsize 9783
+\i (00:04:13) zoom in 1 
+\i (00:04:13) setwindow pcb
+\i (00:04:13) zoom in 22.6946 6.9503
+\t (00:04:13) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:04:13) trapsize 4891
+\i (00:04:14) zoom in 1 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) zoom in 25.9228 8.8091
+\t (00:04:14) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:04:14) trapsize 2446
+\i (00:04:14) zoom out 1 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) zoom out 25.9229 8.8091
+\t (00:04:14) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:04:14) trapsize 4891
+\i (00:04:16) pick grid 56.9337 39.2330
+\t (00:04:16) last pick:  56.9300 39.2300
+\i (00:04:23) pick grid -2.0555 52.3417
+\t (00:04:23) last pick:  -2.0600 52.3400
+\i (00:09:43) color192 
+\i (00:09:43) generaledit 
+\i (00:09:45) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:09:48) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:09:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:09:50) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:09:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:10:01) QtSignal CVDLayerTable VertHeader clickedCheckBox 30
+\i (00:10:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 30 0
+\i (00:10:03) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:10:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:10:05) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:10:07) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:10:17) zoom in 1 
+\i (00:10:17) setwindow pcb
+\i (00:10:17) zoom in 20.6402 15.1678
+\t (00:10:17) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:10:17) trapsize 2446
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 20.6403 15.1678
+\t (00:10:18) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:10:18) trapsize 4891
+\i (00:10:18) QtSignal CVDTabs CVDLayerContainer keyPressEvent 16777251 134217728 false 1
+\i (00:10:24) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:10:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:10:24) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:10:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:10:30) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:10:31) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:10:32) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:10:34) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:10:52) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:10:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:10:57) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:10:57) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:10:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:10:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:10:59) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:11:00) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:11:01) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:11:02) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:11:03) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:11:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:12:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:12:08) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:12:16) QtSignal CVDLayerTable VertHeader clickedCheckBox 30
+\i (00:12:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 30 0
+\i (00:12:16) QtSignal CVDLayerTable VertHeader clickedCheckBox 29
+\i (00:12:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 29 0
+\i (00:12:20) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:12:21) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:12:21) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:12:23) QtSignal CVDLayerTable VertHeader clickedCheckBox 4
+\i (00:12:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:12:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:12:27) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:12:29) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:12:30) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:12:32) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:12:33) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:12:36) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:12:42) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:13:14) QtSignal CVDLayerTable VertHeader clickedCheckBox 9
+\i (00:13:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (00:13:14) QtSignal CVDLayerTable VertHeader clickedCheckBox 10
+\i (00:13:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (00:13:19) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:13:21) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:13:24) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:13:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:13:26) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:13:27) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:13:28) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:13:28) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:13:30) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:13:31) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:13:31) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:13:33) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:14:12) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:14:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:15:01) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:15:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:15:07) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:15:08) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:15:09) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:15:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:15:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:15:14) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:15:18) artwork 
+\i (00:15:21) setwindow form.film_control
+\i (00:15:21) FORM film_control load  
+\i (00:15:23) fillin "menu_cancel"
+\i (00:15:26) FORM film_control filmtree popup Add TOP 
+\i (00:15:29) fillin "SMBOT"
+\i (00:15:36) FORM film_control filmtree  'DRC ERROR CLASS/SOLDERMASK_BOTTOM' SMBOT 
+\i (00:17:10) setwindow pcb
+\i (00:17:10) pick grid -18.2946 45.8853
+\t (00:17:10) last pick:  -18.2900 45.8900
+\i (00:17:15) setwindow form.film_control
+\i (00:17:15) FORM film_control ok  
+\i (00:17:15) setwindow pcb
+\i (00:17:15) generaledit 
+\i (00:17:18) cmgr 
+\i (00:17:19) setwindow cmgr
+\i (00:17:19) cm newView ( kConsmgr worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" "169:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" "169:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 78:Spacing 94:Net "95:All Layers" "1:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 78:Spacing 94:Net "95:All Layers" "1:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "323:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "323:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 68:Region "69:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 68:Region "69:All Layers" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 55:Physical 68:Region "69:All Layers" "70:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 55:Physical 61:Net "62:All Layers" "63:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" "167:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" "167:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC 51:Design 52:Design )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 51:Design ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 51:Design ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC 51:Design 52:Design ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC 312:Assembly 313:Assembly )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 312:Assembly ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 312:Assembly ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC 312:Assembly 313:Assembly ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 46:Spacing ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 46:Spacing ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC 46:Spacing 48:Spacing ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC 49:Physical 50:Physical )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 49:Physical ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 49:Physical ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC 49:Physical 50:Physical ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC 44:Electrical 45:Electrical )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 44:Electrical ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 44:Electrical ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC 44:Electrical 45:Electrical ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 145:DRC 43:DRC "235:Same Net Spacing" "236:Same Net Spacing" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC "235:Same Net Spacing" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC "235:Same Net Spacing" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet 145:DRC 43:DRC "235:Same Net Spacing" "236:Same Net Spacing" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet "171:Same Net Spacing" "172:Same Net Spacing Constraint Set" "173:All Layers" "174:All Layers" )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook "171:Same Net Spacing" "172:Same Net Spacing Constraint Set" "173:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook "171:Same Net Spacing" "172:Same Net Spacing Constraint Set" "173:All Layers" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm expand ( row ( Design "SCHEMA_CU_CONECTORI" ) )
+\i (00:17:19) cm selectDesignTab ( kConsmgr worksheet "171:Same Net Spacing" "172:Same Net Spacing Constraint Set" "173:All Layers" "174:All Layers" ) 0
+\i (00:17:19) cm newView ( kConsmgr worksheet 78:Spacing "346:Inter Layer" 344:Spacing 345:Spacing )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 68:Region "69:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 51:Design ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 312:Assembly ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 46:Spacing ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 49:Physical ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC 44:Electrical ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook 145:DRC 43:DRC "235:Same Net Spacing" ) )
+\i (00:17:19) cm select ( frame ( kConsmgr workbook "171:Same Net Spacing" "172:Same Net Spacing Constraint Set" "173:All Layers" ) )
+\i (00:17:19) setwindow pcb
+\i (00:17:19) QtSignal ILC_widget345 ILC_m_cbCls1345 CurrentIndexChanged Geometries
+\i (00:17:19) QtSignal ILC_widget345 ILC_m_cbCls2345 CurrentIndexChanged Geometries
+\i (00:17:20) generaledit 
+\i (00:17:22) setwindow cmgr
+\i (00:17:22) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:17:22) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:17:35) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:17:35) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:18:08) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:08) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:11) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:11) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:19) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:19) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:26) cm select ( frame ( kConsmgr workbook 78:Spacing "346:Inter Layer" 344:Spacing ) )
+\i (00:18:40) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:18:40) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:18:40) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:18:40) cm selectDesignTab ( kConsmgr worksheet 78:Spacing 126:Region "127:All Layers" "134:All Layers" ) 0
+\i (00:18:41) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "343:CSet assignment matrix" ) )
+\i (00:18:41) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:41) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:18:43) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:43) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:43) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:18:43) cm select ( frame ( kConsmgr workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:18:45) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:45) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:18:52) cm select ( frame ( kConsmgr workbook 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" ) )
+\i (00:18:53) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" 404:Mask )
+\i (00:18:54) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" 403:Outline )
+\i (00:18:58) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" 409:Silkscreen )
+\i (00:18:58) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" "408:Copper Spacing" )
+\i (00:18:59) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" "405:Annular Ring" )
+\i (00:18:59) cm newView ( kConsmgr worksheet 400:Manufacturing "401:Design for Fabrication" "402:DFF Constraint Set" "408:Copper Spacing" )
+\i (00:19:04) cm select ( frame ( kConsmgr workbook 78:Spacing 94:Net "95:All Layers" ) )
+\i (00:19:12) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:19:12) cm select ( frame ( kConsmgr workbook 78:Spacing "111:Net Class-Class" "112:All Layers" ) )
+\i (00:19:16) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:19:16) cm select ( frame ( kConsmgr workbook 78:Spacing 126:Region "127:All Layers" ) )
+\i (00:19:20) cm exit
+\i (00:20:37) setwindow pcb
+\i (00:20:37) pick grid -14.3816 33.2657
+\t (00:20:37) last pick:  -14.3800 33.2700
+\i (00:20:40) artwork 
+\i (00:20:46) artwork 
+\i (00:20:48) setwindow form.film_control
+\i (00:20:48) FORM film_control cancel  
+\i (00:20:48) setwindow pcb
+\i (00:20:48) generaledit 
+\i (00:20:49) color192 
+\i (00:20:49) generaledit 
+\i (00:20:51) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:20:52) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:20:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:20:55) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:20:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:20:57) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:21:01) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:21:02) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:21:03) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:21:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:21:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:21:09) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:21:13) QtSignal CVDLayerTable VertHeader clickedCheckBox 30
+\i (00:21:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 30 0
+\i (00:21:14) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:21:38) pick grid -28.0772 22.8961
+\t (00:21:38) last pick:  -28.0800 22.9000
+\i (00:21:40) artwork 
+\i (00:21:42) setwindow form.film_control
+\i (00:21:42) FORM film_control filmtree popup Add TOP 
+\i (00:21:46) fillin "SMTOP"
+\i (00:21:54) FORM film_control filmtree  SMTOP 
+\i (00:21:58) FORM film_control undefined_line_width 0.1 
+\i (00:21:59) FORM film_control filmtree  SMBOT 
+\i (00:21:59) FORM film_control filmtree  BOTTOM 
+\i (00:22:00) FORM film_control filmtree  TOP 
+\i (00:22:01) FORM film_control filmtree  SMTOP 
+\i (00:22:02) FORM film_control filmtree  SMBOT 
+\i (00:22:05) FORM film_control undefined_line_width 0.1 
+\i (00:22:05) FORM film_control ok  
+\i (00:22:06) setwindow pcb
+\i (00:22:06) generaledit 
+\i (00:22:08) artwork 
+\i (00:22:11) setwindow form.film_control
+\i (00:22:11) FORM film_control filmtree  BOTTOM 
+\i (00:22:11) FORM film_control filmtree  SMBOT 
+\i (00:22:11) FORM film_control filmtree  SMTOP 
+\i (00:22:12) FORM film_control filmtree  TOP 
+\i (00:22:15) FORM film_control filmtree  SMTOP 
+\i (00:22:15) FORM film_control filmtree  SMBOT 
+\i (00:22:16) FORM film_control filmtree  SMTOP 
+\i (00:22:17) FORM film_control filmtree  SMBOT 
+\i (00:22:17) FORM film_control filmtree  BOTTOM 
+\i (00:22:18) FORM film_control filmtree  BO 
+\i (00:22:29) FORM film_control ok  
+\i (00:22:29) setwindow pcb
+\i (00:22:29) generaledit 
+\i (00:23:05) pick grid -9.0011 32.3853
+\t (00:23:05) last pick:  -9.0000 32.3900
+\i (00:23:06) color192 
+\i (00:23:07) generaledit 
+\i (00:23:07) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:23:08) QtSignal CVDLayerTable VertHeader clickedCheckBox 5
+\i (00:23:08) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:23:10) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:23:10) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:23:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:23:11) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:23:17) QtSignal CVDLayerTable VertHeader clickedCheckBox 20
+\i (00:23:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 20 0
+\i (00:23:18) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:23:20) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:23:23) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:23:24) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:23:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:23:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:23:29) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:23:31) artwork 
+\i (00:23:33) setwindow form.film_control
+\i (00:23:33) FORM film_control filmtree  TOP 
+\i (00:23:34) FORM film_control filmtree popup Add TOP 
+\i (00:23:37) fillin "SPTOP"
+\i (00:23:38) FORM film_control filmtree  SPTOP 
+\i (00:23:51) FORM film_control x_offset 0.1 
+\i (00:23:51) FORM film_control ok  
+\i (00:23:51) setwindow pcb
+\i (00:23:51) generaledit 
+\i (00:24:10) pick grid -9.6859 42.6570
+\t (00:24:10) last pick:  -9.6900 42.6600
+\i (00:24:12) color192 
+\i (00:24:12) generaledit 
+\i (00:24:13) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:24:25) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:24:26) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:24:30) QtSignal CVDLayerTable VertHeader clickedCheckBox 28
+\i (00:24:30) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:24:33) zoom in 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom in 9.4880 30.9179
+\t (00:24:33) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:24:33) trapsize 2446
+\i (00:24:33) zoom in 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom in 9.4881 30.9179
+\t (00:24:33) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:24:33) trapsize 1223
+\i (00:24:34) zoom out 1 
+\i (00:24:34) setwindow pcb
+\i (00:24:34) zoom out 9.4881 30.9179
+\t (00:24:34) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:24:34) trapsize 2446
+\i (00:24:35) zoom out 1 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) zoom out 17.1186 25.8310
+\t (00:24:35) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:24:35) trapsize 4891
+\i (00:24:36) zoom in 1 
+\i (00:24:36) setwindow pcb
+\i (00:24:36) zoom in 26.5099 14.4831
+\t (00:24:36) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:24:36) trapsize 2446
+\i (00:24:36) zoom in 1 
+\i (00:24:36) setwindow pcb
+\i (00:24:36) zoom in 24.1621 14.5810
+\t (00:24:36) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:24:36) trapsize 1223
+\i (00:24:37) zoom out 1 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) zoom out 24.1622 14.5810
+\t (00:24:37) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:24:37) trapsize 2446
+\i (00:24:37) zoom out 1 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) zoom out 24.1621 14.5810
+\t (00:24:37) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:24:37) trapsize 4891
+\i (00:24:37) zoom out 1 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) zoom out 25.6296 15.4614
+\t (00:24:37) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:24:37) trapsize 9783
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 29.7380 18.7875
+\t (00:24:38) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:24:38) trapsize 4891
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 26.8032 18.9832
+\t (00:24:38) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:24:38) trapsize 2446
+\i (00:24:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:24:48) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:24:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:24:50) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:24:51) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:24:52) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:24:54) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:24:54) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:24:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 17 0
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 17 0
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:05) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:25:05) zoom out 1 
+\i (00:25:05) setwindow pcb
+\i (00:25:05) zoom out 30.1782 16.0974
+\t (00:25:05) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:05) trapsize 4891
+\i (00:25:05) zoom out 1 
+\i (00:25:05) setwindow pcb
+\i (00:25:05) zoom out 30.1782 16.0974
+\t (00:25:05) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:25:05) trapsize 9783
+\i (00:25:06) zoom in 1 
+\i (00:25:06) setwindow pcb
+\i (00:25:06) zoom in 3.5206 12.5756
+\t (00:25:06) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:06) trapsize 4891
+\i (00:25:06) zoom in 1 
+\i (00:25:06) setwindow pcb
+\i (00:25:06) zoom in 19.0749 7.3908
+\t (00:25:06) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:25:06) trapsize 2446
+\i (00:25:08) zoom out 1 
+\i (00:25:08) setwindow pcb
+\i (00:25:08) zoom out 24.7978 6.6082
+\t (00:25:08) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:08) trapsize 4891
+\i (00:25:09) zoom in 1 
+\i (00:25:09) setwindow pcb
+\i (00:25:09) zoom in 22.5477 3.4778
+\t (00:25:09) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:25:09) trapsize 2446
+\i (00:25:10) zoom out 1 
+\i (00:25:10) setwindow pcb
+\i (00:25:10) zoom out 21.1782 16.7333
+\t (00:25:10) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:10) trapsize 4891
+\i (00:25:10) zoom in 1 
+\i (00:25:10) setwindow pcb
+\i (00:25:10) zoom in 19.7108 20.2550
+\t (00:25:10) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:25:10) trapsize 2446
+\i (00:25:13) drag_start grid 24.2108 5.9235
+\i (00:25:14) drag_stop 33.2108 1.9615
+\i (00:25:15) prepopup 31.8902 2.9887
+\i (00:25:29) pick grid 45.3902 12.6246
+\t (00:25:29) last pick:  45.3900 12.6200
+\i (00:25:30) zoom out 1 
+\i (00:25:30) setwindow pcb
+\i (00:25:30) zoom out 27.0478 18.6898
+\t (00:25:30) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:30) trapsize 4891
+\i (00:25:34) artwork 
+\i (00:25:36) setwindow form.film_control
+\i (00:25:36) FORM film_control filmtree popup Add TOP 
+\i (00:25:39) fillin "SSTOP"
+\i (00:26:32) FORM film_control filmtree  SSTOP 
+\i (00:26:34) FORM film_control undefined_line_width 0.1 
+\i (00:26:34) FORM film_control ok  
+\i (00:26:34) setwindow pcb
+\i (00:26:34) generaledit 
+\i (00:26:35) pick grid -36.4415 29.7442
+\t (00:26:35) last pick:  -36.4400 29.7400
+\i (00:26:37) color192 
+\i (00:26:37) generaledit 
+\i (00:26:39) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:26:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:26:41) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:26:41) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:26:42) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:26:44) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 2 0
+\i (00:26:44) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:26:44) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:26:44) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 3 0
+\i (00:26:44) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:26:44) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:26:51) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 4 0
+\i (00:26:51) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:26:51) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:26:56) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 15 0
+\i (00:26:56) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 15 0
+\i (00:26:56) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:27:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:27:07) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:27:07) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:27:08) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:27:09) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:27:09) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:27:09) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:27:09) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:27:09) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:27:09) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:27:32) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:27:34) QtSignal CVDLayerTable VertHeader clickedCheckBox 28
+\i (00:27:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 28 0
+\i (00:27:35) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:27:37) QtSignal CVDLayerTable VertHeader clickedCheckBox 7
+\i (00:27:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:27:37) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:27:38) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:27:39) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:27:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:27:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:27:42) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:27:43) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:27:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:27:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:27:47) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:28:00) pick grid -28.4197 21.9181
+\t (00:28:00) last pick:  -28.4200 21.9200
+\i (00:28:01) pick grid 5.5260 47.5486
+\t (00:28:01) last pick:  5.5300 47.5500
+\i (00:28:03) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:28:04) zoom out 1 
+\i (00:28:04) setwindow pcb
+\i (00:28:04) zoom out 13.1564 12.3311
+\t (00:28:04) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:28:04) trapsize 9783
+\i (00:28:04) zoom out 1 
+\i (00:28:04) setwindow pcb
+\i (00:28:04) zoom out 46.1728 11.1573
+\t (00:28:04) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:28:04) trapsize 19565
+\i (00:28:05) zoom in 1 
+\i (00:28:05) setwindow pcb
+\i (00:28:05) zoom in 22.3030 3.5261
+\t (00:28:05) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:28:05) trapsize 9783
+\i (00:28:05) zoom in 1 
+\i (00:28:05) setwindow pcb
+\i (00:28:05) zoom in 1.5639 21.1348
+\t (00:28:05) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:28:05) trapsize 4891
+\i (00:28:06) zoom in 1 
+\i (00:28:06) setwindow pcb
+\i (00:28:06) zoom in -4.7948 22.1131
+\t (00:28:06) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:28:06) trapsize 2446
+\i (00:28:07) zoom out 1 
+\i (00:28:07) setwindow pcb
+\i (00:28:07) zoom out 2.6889 21.7219
+\t (00:28:07) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:28:07) trapsize 4891
+\i (00:28:11) color192 
+\i (00:28:11) generaledit 
+\i (00:28:12) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:28:12) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:28:13) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:28:14) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:28:15) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:28:16) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:28:17) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:28:18) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Bond wire profiles"
+\i (00:28:18) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:28:19) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:28:22) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 5 0
+\i (00:28:22) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:28:22) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:28:25) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:28:25) zoom out 1 
+\i (00:28:25) setwindow pcb
+\i (00:28:25) zoom out 15.2106 6.8522
+\t (00:28:25) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:28:25) trapsize 9783
+\i (00:28:25) zoom out 1 
+\i (00:28:25) setwindow pcb
+\i (00:28:25) zoom out 15.2107 6.8523
+\t (00:28:25) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:28:25) trapsize 19565
+\i (00:28:26) zoom in 1 
+\i (00:28:26) setwindow pcb
+\i (00:28:26) zoom in 28.1726 16.8304
+\t (00:28:26) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:28:26) trapsize 9783
+\i (00:28:26) zoom in 1 
+\i (00:28:26) setwindow pcb
+\i (00:28:26) zoom in -3.7187 20.7435
+\t (00:28:26) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:28:26) trapsize 4891
+\i (00:28:27) zoom out 1 
+\i (00:28:27) setwindow pcb
+\i (00:28:27) zoom out 22.4987 32.9718
+\t (00:28:27) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:28:27) trapsize 9783
+\i (00:28:29) artwork 
+\i (00:28:32) setwindow form.film_control
+\i (00:28:32) FORM film_control filmtree popup Add TOP 
+\i (00:28:35) fillin "FAB"
+\i (00:28:39) FORM film_control filmtree  FAB 
+\i (00:28:43) FORM film_control undefined_line_width 0.1 
+\i (00:28:44) FORM film_control ok  
+\i (00:28:44) setwindow pcb
+\i (00:28:44) generaledit 
+\i (00:29:00) pick grid -0.3926 49.4066
+\t (00:29:00) last pick:  -0.3900 49.4100
+\i (00:29:08) nctape_full 
+\i (00:29:24) setwindow form.nc_drill
+\i (00:29:24) FORM nc_drill cancel  
+\i (00:29:24) setwindow pcb
+\i (00:29:24) generaledit 
+\i (00:29:29) ncdrill param 
+\i (00:29:29) generaledit 
+\i (00:29:50) setwindow form.nc_parameters
+\i (00:29:50) FORM nc_parameters done  
+\i (00:29:53) setwindow pcb
+\i (00:29:53) pick grid 15.6509 47.8414
+\t (00:29:53) last pick:  15.6500 47.8400
+\i (00:29:55) nctape_full 
+\i (00:30:12) setwindow form.nc_drill
+\i (00:30:12) FORM nc_drill execute  
+\t (00:30:12) Starting Generating NC Drill...
+\i (00:30:21) FORM nc_drill close  
+\i (00:30:21) setwindow pcb
+\i (00:30:21) generaledit 
+\i (00:30:45) pick grid -26.0231 -54.0934
+\t (00:30:45) last pick:  -26.0200 -54.0900
+\i (00:30:47) artwork 
+\i (00:30:55) setwindow form.film_control
+\i (00:30:55) FORM film_control create  
+\i (00:30:58) fillin yes 
+\w (00:30:58) No film records selected.
+\i (00:31:03) FORM film_control create  
+\i (00:31:04) fillin yes 
+\w (00:31:04) No film records selected.
+\i (00:35:05) FORM film_control ok  
+\i (00:35:05) setwindow pcb
+\i (00:35:05) generaledit 
+\i (00:35:09) nctape_full 
+\i (00:35:10) setwindow form.nc_drill
+\i (00:35:10) FORM nc_drill execute  
+\t (00:35:10) Starting Generating NC Drill...
+\i (00:35:15) FORM nc_drill cancel  
+\i (00:35:15) setwindow pcb
+\i (00:35:15) generaledit 
+\i (00:35:17) shadow toggle 
+\i (00:35:18) shadow toggle 
+\i (00:35:19) shadow toggle 
+\i (00:35:20) color192 
+\i (00:35:20) generaledit 
+\i (00:35:22) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:35:27) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:35:27) zoom in 1 
+\i (00:35:27) setwindow pcb
+\i (00:35:27) zoom in 24.2596 26.5153
+\t (00:35:27) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:35:27) trapsize 4891
+\i (00:35:27) zoom in 1 
+\i (00:35:27) setwindow pcb
+\i (00:35:27) zoom in 24.1618 26.4175
+\t (00:35:27) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:35:27) trapsize 2446
+\i (00:35:27) zoom in 1 
+\i (00:35:27) setwindow pcb
+\i (00:35:27) zoom in 24.1618 26.4175
+\t (00:35:27) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:35:27) trapsize 1223
+\i (00:35:28) zoom out 1 
+\i (00:35:28) setwindow pcb
+\i (00:35:28) zoom out 24.1618 26.4175
+\t (00:35:28) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:35:28) trapsize 2446
+\i (00:35:30) shadow toggle 
+\i (00:35:31) shadow toggle 
+\i (00:35:32) zoom out 1 
+\i (00:35:32) setwindow pcb
+\i (00:35:32) zoom out 20.8357 25.4393
+\t (00:35:32) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:35:32) trapsize 4891
+\i (00:35:32) zoom out 1 
+\i (00:35:32) setwindow pcb
+\i (00:35:32) zoom out 20.8358 25.4393
+\t (00:35:32) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:35:32) trapsize 9783
+\i (00:35:33) zoom in 1 
+\i (00:35:33) setwindow pcb
+\i (00:35:33) zoom in 11.4445 27.0046
+\t (00:35:33) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:35:33) trapsize 4891
+\i (00:35:36) artwork 
+\i (00:35:39) setwindow form.film_control
+\i (00:35:39) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:35:39) FORM film_control filmtree  TOP 
+\i (00:35:39) FORM film_control filmtree 'MULTISEL YES' SSTOP 
+\i (00:35:39) FORM film_control filmtree  SSTOP 
+\i (00:35:40) FORM film_control filmtree 'MULTISEL YES' SPTOP 
+\i (00:35:40) FORM film_control filmtree  SPTOP 
+\i (00:35:40) FORM film_control filmtree 'MULTISEL YES' SMTOP 
+\i (00:35:40) FORM film_control filmtree  SMTOP 
+\i (00:35:41) FORM film_control filmtree 'MULTISEL YES' SMBOT 
+\i (00:35:41) FORM film_control filmtree  SMBOT 
+\i (00:35:41) FORM film_control filmtree 'MULTISEL YES' FAB 
+\i (00:35:41) FORM film_control filmtree  FAB 
+\i (00:35:42) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:35:42) FORM film_control filmtree  BOTTOM 
+\i (00:35:42) FORM film_control filmtree 'MULTISEL YES' BO 
+\i (00:35:42) FORM film_control filmtree  BO 
+\i (00:35:45) FORM film_control filmtree  SSTOP 
+\i (00:35:45) FORM film_control filmtree  TOP 
+\i (00:35:46) FORM film_control filmtree  SSTOP 
+\i (00:35:46) FORM film_control filmtree  SPTOP 
+\i (00:35:50) FORM film_control undefined_line_width 0.1 
+\i (00:35:51) FORM film_control filmtree  SMTOP 
+\i (00:35:52) FORM film_control filmtree  SPTOP 
+\i (00:35:53) FORM film_control filmtree  SMBOT 
+\i (00:35:54) FORM film_control filmtree  BOTTOM 
+\i (00:35:54) FORM film_control filmtree  FAB 
+\i (00:35:55) FORM film_control filmtree  BO 
+\i (00:35:56) FORM film_control filmtree  SSTOP 
+\i (00:35:56) FORM film_control filmtree  TOP 
+\i (00:35:59) FORM film_control create  
+\i (00:36:00) fillin yes 
+\t (00:36:00) Checking db records
+\t (00:36:00)     checking for orphans...
+\t (00:36:00)     Checked 100 percent
+\w (00:36:00) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:36:00) Done dbdoctor.
+\t (00:36:00) Starting Create artwork films...
+\w (00:36:00) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:36:01) Artwork generated with warnings.
+\i (00:37:07) setwindow pcb
+\i (00:37:07) setwindow text
+\i (00:37:07) close
+\i (00:37:30) pick grid 71.7054 42.9503
+\t (00:37:30) last pick:  71.7100 42.9500
+\i (00:37:33) setwindow form.film_control
+\i (00:37:33) FORM film_control ok  
+\i (00:37:33) setwindow pcb
+\i (00:37:33) generaledit 
+\i (00:37:34) zoom in 1 
+\i (00:37:34) setwindow pcb
+\i (00:37:34) zoom in 56.0533 12.6242
+\t (00:37:34) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:34) trapsize 2446
+\i (00:37:34) zoom in 1 
+\i (00:37:34) setwindow pcb
+\i (00:37:34) zoom in 56.0533 12.6242
+\t (00:37:34) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:37:34) trapsize 1223
+\i (00:37:34) zoom in 1 
+\i (00:37:34) setwindow pcb
+\i (00:37:34) zoom in 56.0533 12.6242
+\t (00:37:34) Grids are drawn 0.0800, 0.0800 apart for enhanced viewability.
+\i (00:37:34) trapsize 611
+\i (00:37:35) zoom out 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom out 55.5519 12.6609
+\t (00:37:35) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:37:35) trapsize 1223
+\i (00:37:35) zoom out 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom out 55.5275 12.6610
+\t (00:37:35) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:35) trapsize 2446
+\i (00:37:35) zoom out 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom out 38.1632 14.2751
+\t (00:37:35) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:35) trapsize 4891
+\i (00:37:36) zoom out 1 
+\i (00:37:36) setwindow pcb
+\i (00:37:36) zoom out 6.6629 23.3730
+\t (00:37:36) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:37:36) trapsize 9783
+\i (00:37:37) zoom out 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom out 9.9890 20.6338
+\t (00:37:37) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:37:37) trapsize 19565
+\i (00:37:37) zoom in 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom in -20.7404 19.5696
+\t (00:37:37) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:37:37) trapsize 9783
+\i (00:37:38) zoom in 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom in -20.7404 19.5696
+\t (00:37:38) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:38) trapsize 4891
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out -18.1969 19.5696
+\t (00:37:38) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:37:38) trapsize 9783
+\i (00:37:39) zoom in 1 
+\i (00:37:39) setwindow pcb
+\i (00:37:39) zoom in 4.8900 23.8739
+\t (00:37:39) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:39) trapsize 4891
+\i (00:37:40) zoom in 1 
+\i (00:37:40) setwindow pcb
+\i (00:37:40) zoom in 13.3031 22.2109
+\t (00:37:40) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:40) trapsize 2446
+\i (00:37:41) zoom out 1 
+\i (00:37:41) setwindow pcb
+\i (00:37:41) zoom out 18.1944 19.4718
+\t (00:37:41) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:41) trapsize 4891
+\i (00:37:42) zoom in 1 
+\i (00:37:42) setwindow pcb
+\i (00:37:42) zoom in 19.2705 20.4501
+\t (00:37:42) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:42) trapsize 2446
+\i (00:37:43) zoom out 1 
+\i (00:37:43) setwindow pcb
+\i (00:37:43) zoom out 20.6890 19.5697
+\t (00:37:43) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:43) trapsize 4891
+\i (00:37:43) zoom in 1 
+\i (00:37:43) setwindow pcb
+\i (00:37:43) zoom in 20.6890 19.5697
+\t (00:37:43) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:43) trapsize 2446
+\i (00:37:44) zoom out 1 
+\i (00:37:44) setwindow pcb
+\i (00:37:44) zoom out 20.6890 19.5697
+\t (00:37:44) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:44) trapsize 4891
+\i (00:37:45) zoom in 1 
+\i (00:37:45) setwindow pcb
+\i (00:37:45) zoom in 20.9825 19.4719
+\t (00:37:45) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:45) trapsize 2446
+\i (00:37:46) zoom out 1 
+\i (00:37:46) setwindow pcb
+\i (00:37:46) zoom out 20.9826 19.4719
+\t (00:37:46) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:46) trapsize 4891
+\i (00:37:48) zoom in 1 
+\i (00:37:48) setwindow pcb
+\i (00:37:48) zoom in 23.3303 18.2002
+\t (00:37:48) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:48) trapsize 2446
+\i (00:37:49) zoom out 1 
+\i (00:37:49) setwindow pcb
+\i (00:37:49) zoom out 23.3304 18.2002
+\t (00:37:49) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:37:49) trapsize 4891
+\i (00:37:50) zoom in 1 
+\i (00:37:50) setwindow pcb
+\i (00:37:50) zoom in 23.3303 18.2003
+\t (00:37:50) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:37:50) trapsize 2446
+\i (00:43:37) zoom out 1 
+\i (00:43:37) setwindow pcb
+\i (00:43:37) zoom out 37.5641 16.7329
+\t (00:43:37) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:43:37) trapsize 4891
+\i (00:43:41) shadow toggle 
+\i (00:43:41) zoom out 1 
+\i (00:43:41) setwindow pcb
+\i (00:43:41) zoom out 17.2162 27.8852
+\t (00:43:41) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:43:41) trapsize 9783
+\i (00:43:43) zoom out 1 
+\i (00:43:43) setwindow pcb
+\i (00:43:43) zoom out 86.6726 -34.7235
+\t (00:43:43) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:43:43) trapsize 19565
+\i (00:43:43) zoom in 1 
+\i (00:43:43) setwindow pcb
+\i (00:43:43) zoom in 63.7813 -29.7348
+\t (00:43:43) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:43:43) trapsize 9783
+\i (00:43:44) zoom in 1 
+\i (00:43:44) setwindow pcb
+\i (00:43:44) zoom in 36.9770 -23.4739
+\t (00:43:44) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:43:44) trapsize 4891
+\i (00:43:44) zoom out 1 
+\i (00:43:44) setwindow pcb
+\i (00:43:44) zoom out 30.4227 -22.3000
+\t (00:43:44) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:43:44) trapsize 9783
+\i (00:43:46) zoom in 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom in 1.6618 -16.0390
+\t (00:43:46) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:43:46) trapsize 4891
+\i (00:44:12) zoom out 1 
+\i (00:44:12) setwindow pcb
+\i (00:44:12) zoom out 4.0097 3.6240
+\t (00:44:12) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:44:12) trapsize 9783
+\i (00:44:12) zoom out 1 
+\i (00:44:12) setwindow pcb
+\i (00:44:12) zoom out -0.2947 3.8197
+\t (00:44:12) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:44:12) trapsize 19565
+\i (00:44:12) zoom out 1 
+\i (00:44:12) setwindow pcb
+\i (00:44:12) zoom out -76.6970 80.6131
+\i (00:44:12) trapsize 19565
+\i (00:44:12) zoom out 1 
+\i (00:44:12) setwindow pcb
+\i (00:44:12) zoom out -77.0883 82.5696
+\i (00:44:12) trapsize 19565
+\i (00:44:13) zoom in 1 
+\i (00:44:13) setwindow pcb
+\i (00:44:13) zoom in -77.0883 43.0478
+\t (00:44:13) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:44:13) trapsize 9783
+\i (00:44:13) zoom in 1 
+\i (00:44:13) setwindow pcb
+\i (00:44:13) zoom in -77.0882 43.0478
+\t (00:44:13) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:44:13) trapsize 4891
+\i (00:44:14) zoom out 1 
+\i (00:44:14) setwindow pcb
+\i (00:44:14) zoom out -69.0664 16.6348
+\t (00:44:14) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:44:14) trapsize 9783
+\i (00:44:14) zoom in 1 
+\i (00:44:14) setwindow pcb
+\i (00:44:14) zoom in -64.1751 5.4827
+\t (00:44:14) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:44:14) trapsize 4891
+\i (00:44:15) zoom in 1 
+\i (00:44:15) setwindow pcb
+\i (00:44:15) zoom in -64.1751 15.8523
+\t (00:44:15) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:44:15) trapsize 2446
+\i (00:44:16) zoom out 1 
+\i (00:44:16) setwindow pcb
+\i (00:44:16) zoom out -62.1207 16.6838
+\t (00:44:16) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:44:16) trapsize 4891
+\i (00:44:36) zoom out 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom out -8.8056 34.5860
+\t (00:44:36) Grids are drawn 1.2800, 1.2800 apart for enhanced viewability.
+\i (00:44:36) trapsize 9783
+\i (00:44:36) zoom out 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom out 34.4335 34.5860
+\t (00:44:36) Grids are drawn 2.5600, 2.5600 apart for enhanced viewability.
+\i (00:44:36) trapsize 19565
+\i (00:44:37) pick grid 147.9118 18.0044
+\t (00:44:37) last pick:  147.9100 18.0000
+\i (00:44:37) save 
+\i (00:44:38) fillin yes 
+   (00:44:38) Loading consmgr.cxt 
+   (00:44:38) Loading acns_formula.cxt 
+   (00:44:38) Loading signal.cxt 
+\i (00:44:38) generaledit 
+\i (00:44:40) exit 
+\t (00:44:40)     Journal end - Sun Dec 15 17:32:07 2024
